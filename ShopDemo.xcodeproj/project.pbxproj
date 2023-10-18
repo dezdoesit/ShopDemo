@@ -14,6 +14,8 @@
 		4CBFD2662AE00FBC0057635D /* ShopDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD2652AE00FBC0057635D /* ShopDemoTests.swift */; };
 		4CBFD2702AE00FBC0057635D /* ShopDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD26F2AE00FBC0057635D /* ShopDemoUITests.swift */; };
 		4CBFD2722AE00FBC0057635D /* ShopDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD2712AE00FBC0057635D /* ShopDemoUITestsLaunchTests.swift */; };
+		4CBFD27F2AE012FC0057635D /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD27E2AE012FC0057635D /* CarouselView.swift */; };
+		4CBFD2812AE0131B0057635D /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD2802AE0131B0057635D /* ShopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4CBFD26B2AE00FBC0057635D /* ShopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBFD26F2AE00FBC0057635D /* ShopDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDemoUITests.swift; sourceTree = "<group>"; };
 		4CBFD2712AE00FBC0057635D /* ShopDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CBFD27E2AE012FC0057635D /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		4CBFD2802AE0131B0057635D /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				4CBFD2562AE00FBA0057635D /* ContentView.swift */,
 				4CBFD2582AE00FBC0057635D /* Assets.xcassets */,
 				4CBFD25A2AE00FBC0057635D /* Preview Content */,
+				4CBFD27E2AE012FC0057635D /* CarouselView.swift */,
 			);
 			path = ShopDemo;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				4CBFD25B2AE00FBC0057635D /* Preview Assets.xcassets */,
+				4CBFD2802AE0131B0057635D /* ShopView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CBFD2572AE00FBA0057635D /* ContentView.swift in Sources */,
+				4CBFD27F2AE012FC0057635D /* CarouselView.swift in Sources */,
+				4CBFD2812AE0131B0057635D /* ShopView.swift in Sources */,
 				4CBFD2552AE00FBA0057635D /* ShopDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
